@@ -1,11 +1,12 @@
 :root{
-  --bg-hero: #071a14;
+  /* Fundo do hero (agora laranja escuro predominante) */
+  --bg-hero: #2B1406;
 
   /* Tema (área administrativa/financeira) */
-  --bs-primary: #1b7f5c;
-  --bs-primary-rgb: 27, 127, 92;
-  --bs-link-color: #1b7f5c;
-  --bs-link-hover-color: #16664a;
+  --bs-primary: #F4A460;
+  --bs-primary-rgb: 244, 164, 96;
+  --bs-link-color: #F4A460;
+  --bs-link-hover-color: #F4A460;
 }
 
 * { box-sizing: border-box; }
@@ -15,10 +16,10 @@ body{
 
 .header{
   min-height: 92vh;
-  background: radial-gradient(1200px 600px at 18% 18%, rgba(27, 127, 92, 0.35), transparent 60%),
+  background: radial-gradient(1200px 600px at 18% 18%, rgba(244, 164, 96, 0.35), transparent 60%),
               radial-gradient(900px 500px at 80% 28%, rgba(15, 42, 61, 0.25), transparent 55%),
-              linear-gradient(180deg, #071a14, #040b09);
-position: relative;
+              linear-gradient(180deg, #2B1406, #120802);
+  position: relative;
   overflow: hidden;
 }
 
